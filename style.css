@@ -48,3 +48,34 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* END OF RESET */
+
+#container {
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-row: repeat(2, 1fr);
+}
+
+#header {
+    background-color: blanchedalmond;
+
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+
+#cards {
+    background-color:brown;
+
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
+
+#side-bar {
+    background-color: blue;
+
+    grid-column: 1 / 1;
+    grid-row: 1 / 3;
+}
