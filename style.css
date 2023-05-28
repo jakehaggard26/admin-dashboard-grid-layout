@@ -51,6 +51,9 @@ table {
 
 /* END OF RESET */
 * {
+    --white-background: #eeeef0b4;
+    --gray-background: #a4aab37c;
+
     font-size: 8px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -74,14 +77,14 @@ h5 {
 }
 
 #header {
-    background-color: #dbeafe38;
+    background-color: var(--white-background);
 
     grid-column: 2 / 2;
     grid-row: 1 / 1;
 }
 
 #cards {
-    background-color: #c3c8cf;
+    background-color: var(--gray-background);
     padding: 32px 16px;
 
     grid-column: 2 / 2;
@@ -103,6 +106,7 @@ h5 {
 }
 
 .project-card-grid-item {
+    background-color: var(--white-background);
     outline: 1px solid black;
     border-radius: 5%;
     padding: 24px 32px;
