@@ -56,7 +56,7 @@ table {
 
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-row: repeat(2, 1fr);
+    grid-template-rows: 1fr 4fr;
 }
 
 #header {
