@@ -110,8 +110,8 @@ h5 {
 .project-card-grid-item {
     background-color: var(--white-background);
     /* outline: 1px solid black; */
-    border-radius: 5%;
-    border-left: 20px solid rgb(238, 171, 70);
+    border-radius: 2%;
+    border-left: 10px solid rgb(238, 171, 70);
     padding: 16px 16px;
 
     display: flex;
