@@ -113,6 +113,12 @@ h5 {
     padding: 16px 16px;
 }
 
+.project-card-grid-item .project-title {
+    font-size: 1.5rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 #side-bar {
     background-color: #3b82f6;
     color: white;
@@ -120,3 +126,6 @@ h5 {
     grid-column: 1 / 1;
     grid-row: 1 / 3;
 }
+
+
+
