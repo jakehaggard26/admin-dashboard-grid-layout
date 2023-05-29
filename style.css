@@ -226,6 +226,40 @@ h5 {
 #trending-grid {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
+
+.trending-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+
+    
+    text-align: left;
     align-items: center;
-    justify-content: space-evenly;
+    justify-items: left;
+
+}
+
+.trending-logo {
+    grid-column: 1 / 1;
+    align-items: center;
+}
+
+.trending-item-text-grid {
+    grid-column: 2 / 2;
+    
+}
+
+.trending-item-text-grid p {
+    margin-left: 24px;
+}
+
+.trending-item-text-grid .username {
+    margin-bottom: 4px;
+}
+.trending-item > img {
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-right: 4px;
 }
