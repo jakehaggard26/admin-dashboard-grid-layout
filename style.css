@@ -22,7 +22,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -70,6 +70,7 @@ h5 {
 
 #container {
     height: 100vh;
+    
 
     display: grid;
     grid-template-columns: 1fr 6fr;
@@ -107,7 +108,7 @@ h5 {
 
 .project-card-grid-item {
     background-color: var(--white-background);
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
     border-radius: 5%;
     border-left: 20px solid rgb(238, 171, 70);
     padding: 16px 16px;
@@ -117,6 +118,7 @@ h5 {
     font-size: 1.5rem;
     padding-top: 8px;
     padding-bottom: 8px;
+    font-weight: 600;
 }
 
 #side-bar {
