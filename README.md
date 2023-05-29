@@ -20,5 +20,5 @@ Flexbox or Grid
   * During the creation of this there where many times in the project when I asked myself "Do I use Flexbox or Grid for this part?". At first this was a decision that I'd spend a lot of time on but the further along I got and the familiar I got with the two I felt those decisions coming easier than they did before.
 
 Fixing the Bell
- * Adding the rotating bell icon feature was one I was a fan of. However, when rotating it looks slightly blurry so it lowers the quality of it.
+ * Adding the rotating bell icon feature was one I was a fan of. However, when rotating it looks slightly blurry so it lowers the quality of it. I think I fixed this but I've also been staring at a screen for many hours so it could be my eyes begging for a break :')
 
