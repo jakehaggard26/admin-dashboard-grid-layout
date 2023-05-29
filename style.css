@@ -366,3 +366,90 @@ h5 {
     color: var(--blue-background);
     background-color: white;
 }
+
+#side-bar {
+    display: flex;
+    flex-direction: column;
+
+    gap: 64px 0;
+}
+
+#side-bar #side-bar-header {
+    display: flex;
+}
+
+#side-bar #side-bar-header svg {
+    height: 32px;
+    width: 32px;
+
+    fill:white;
+}
+
+/*
+#user-section button {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+
+    margin: 8px 16px;
+    padding: 0px;
+
+    font-size: 12px;
+    font-weight: 600;
+    height: 48px;
+    width: 96px;
+
+    background-color: var(--blue-background);
+    color:white;
+    border: none;
+    outline: none;
+}
+
+*/
+#support-section,
+#user-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+
+    gap: 16px;
+}
+
+#support-section button,
+#user-section button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: var(--blue-background);
+    color:white;
+    height: auto;
+    width: auto;
+
+    border: none;
+    outline: none;
+    
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#support-section button p,
+#user-section button p {
+    text-align: center;
+}
+
+#support-section button svg,
+#user-section button svg {
+    fill:white;
+    height: 32px;
+    width: 64px;
+}
+
+#support-section button:hover,
+#user-section button:hover{
+    opacity: 0.7;
+}
