@@ -54,6 +54,7 @@ table {
 * {
     --white-background: #eeeef0b4;
     --gray-background: #a4aab37c;
+    --blue-background: #3b82f6;
 
     font-size: 8px;
     font-family: 'Roboto', sans-serif, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -162,7 +163,7 @@ h5 {
 }
 
 #side-bar {
-    background-color: #3b82f6;
+    background-color: var(--blue-background);
     color: white;
 
     grid-column: 1 / 1;
@@ -314,4 +315,54 @@ h5 {
 
     padding: 4px 8px;
     font-size: 0.9rem;
+}
+
+#user-management {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+#user-management p {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#user-management img {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+
+#user-management > svg {
+    margin: 0px;
+    padding: 0px;
+
+    height: 32px;
+    width: 32px;
+}
+
+#content-creation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+#content-creation .content-button {
+    border-radius: 15px;
+    background-color: var(--blue-background);
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid var(--blue-background);
+    outline: none;
+    height: 32px;
+    width: 96px;
+}
+
+#content-creation .content-button:hover {
+    color: var(--blue-background);
+    background-color: white;
 }
