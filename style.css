@@ -84,7 +84,6 @@ h5 {
 
 #container {
     height: 100vh;
-    
 
     display: grid;
     grid-template-columns: 1fr 6fr;
@@ -98,6 +97,8 @@ h5 {
     grid-row: 1 / 1;
 
     height: clamp(150px, 175px, 200px);
+
+    box-shadow: 1px 0px 5px black;
 }
 
 #cards {
@@ -109,6 +110,10 @@ h5 {
 
     display: grid;
     grid-template-columns: 4fr 1fr;
+}
+
+#project-cards {
+    justify-self: center;
 }
 
 #project-cards h5 {
@@ -257,9 +262,11 @@ h5 {
 
 .trending-item-text-grid .username {
     margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 600;
 }
 .trending-item > img {
     border-radius: 50%;
     margin-left: 40px;
-    margin-right: 4px;
+    margin-right: 8px;
 }
