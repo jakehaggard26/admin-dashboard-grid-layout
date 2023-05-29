@@ -304,6 +304,15 @@ h5 {
     width: 32px;
 }
 
+#search-bar svg:hover {
+    opacity: 0.5;
+}
+
+.row-of-icons svg:hover {
+    fill: white;
+    stroke: black;
+}
+
 #search-bar input {
     margin: 0px 8px;
     border-radius: 1rem;
