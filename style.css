@@ -375,7 +375,10 @@ h5 {
 }
 
 #side-bar #side-bar-header {
+    margin: 16px;
     display: flex;
+    justify-content: flex-start;
+
 }
 
 #side-bar #side-bar-header svg {
