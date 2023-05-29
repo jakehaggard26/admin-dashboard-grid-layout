@@ -354,6 +354,7 @@ h5 {
     
 }
 
+/* Reference: https://codepen.io/sstromick/pen/KKwQbrx */
 #notification-svg:hover {
     -webkit-animation: rotation 1s infinite linear;
 	
