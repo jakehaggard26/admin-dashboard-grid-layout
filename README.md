@@ -11,11 +11,10 @@ HTML
 
 CSS
 
-## Challenges Faced
-Flexbox or Grid
-  * During the creation of this there where many times in the project when I asked myself "Do I use Flexbox or Grid for this part?". At first this was a decision that I'd spend a lot of time on but the further along I got and the familiar I got with the two I felt those decisions coming easier than they did before.
-
 ## Guide/Reference
 This website was created following the Odin Project.
 You can find the reference [here](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard).
 
+## Challenges Faced
+Flexbox or Grid
+  * During the creation of this there where many times in the project when I asked myself "Do I use Flexbox or Grid for this part?". At first this was a decision that I'd spend a lot of time on but the further along I got and the familiar I got with the two I felt those decisions coming easier than they did before.
