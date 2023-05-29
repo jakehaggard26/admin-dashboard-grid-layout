@@ -274,3 +274,44 @@ h5 {
     margin-left: 40px;
     margin-right: 8px;
 }
+
+#user-info {
+    margin-left: 36px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#user-info #user-image > img {
+    border-radius: 50%;
+}
+
+#search-bar {
+    display: flex;
+    justify-content:flex-start;
+
+    margin: 0px 32px;
+
+    align-self:center;
+}
+
+#search-bar svg {
+    margin: 0px;
+    padding: 0px;
+
+    height: 32px;
+    width: 32px;
+}
+
+#search-bar input {
+    margin: 0px 8px;
+    border-radius: 1rem;
+    height: 1.5rem;
+    width: 50%;
+    background-color: var(--gray-background);
+    border: none;
+    outline: none;
+
+    padding: 4px 8px;
+    font-size: 0.9rem;
+}
