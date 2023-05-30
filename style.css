@@ -309,7 +309,7 @@ h5 {
 }
 
 .row-of-icons svg:hover {
-    fill: white;
+    fill: #eeeef0b4;;
     stroke: black;
 }
 
@@ -354,7 +354,7 @@ h5 {
     
 }
 
-/* Reference: https://codepen.io/sstromick/pen/KKwQbrx */
+/* Bell Animation/Rotation Reference: https://codepen.io/sstromick/pen/KKwQbrx */
 #notification-svg:hover {
     -webkit-animation: rotation 1s infinite linear;
 	
