@@ -4,7 +4,7 @@ a# admin-dashboard-grid-layout
 This project is a recreation of an administrator dashboard. The dashboard was created using both Flexbox and Grid. This is just a UI, the layout is responsive but the buttons do not do anything. I enjoyed this project as it was the first time I did a project using Grid, it's a fun CSS module that makes 2D layouts quite easy to make. A "fun" thing I did for the first was a CSS reset, I've read about this and how they help with consistency across browsers so I was excited to use one for the first time in a project. I also enjoyed the the challenge of creating this design, at first it seemed daunting but when breaking down the layout into sub-layouts. This was done in a divide-and-conquer type of way, divide the main layout into smaller ones and completeing those one at at time.
 
 ## Link
-https://hagnap.github.io/admin-dashboard-grid-layout/index.html
+https://jakehaggard26.github.io/admin-dashboard-grid-layout/index.html
 
 ## Tech Stack
 HTML
